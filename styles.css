@@ -4,10 +4,231 @@
     box-sizing: border-box;
     list-style: none;
     /* list-style-type: none; */
-
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   a {
     text-decoration: none;
-    /* color: blue;  */
+     color: rgb(125, 125, 152);  
   }
+
+  body {
+    display: flex;
+    /* flex:1; */
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  .header{
+    background-color: #1F2937;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    align-items: baseline;
+    flex:0;
+  }
+
+
+  .header-text {
+    display: flex;
+    justify-content: space-between;
+    /* flex:1; */
+    /* border:dotted rgb(0, 13, 128); */
+    /* padding:10px; */
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+
+      }
+
+    .logo {
+        color:#F9FAF8;
+        font-size: 24px;
+        /* margin-left:50px */
+    }
+      
+  .header-links {
+    display: flex;
+    gap:10px;
+  }
+  .intro_sec{
+    display: flex;
+    flex:1; 
+    max-height: 500px;
+    /* flex-direction: row; */
+    background-color: #1F2937;
+    justify-content: space-around;
+    padding:90px
+    /* 48px #F9FAF8 weight: 900 */
+  }
+
+/* INTRO SECTION */
+
+.intro-left {
+    flex:0 1 50%;
+    width: 500px;
+    margin-right:50px;
+
+}
+  .intro_sec h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+  }
+  .intro_sec p{
+    font-size: 18px;
+    
+    color:#E5E7EB
+  }
+  .intro_sec img {
+    background:rgb(60, 48, 48); 
+    width: 300px;
+    flex:1 1 50%;
+
+  }
+
+/* Info Sec */
+
+  .info_sec{
+    /* border:dotted purple; */
+    text-align: center;
+    flex:1;
+    display:flex ;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding:30px;
+  }
+.info_sec .title{
+    flex:1;
+    font-size: 40px;
+    /* margin-bottom: 40px; */
+    font-weight: 600;
+}
+
+  .info_container{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-self: center;
+    gap: 60px;
+    margin-top: 30px;
+    
+    flex:1 1 auto;
+  }
+
+.info img{
+    border: #3882F6 solid;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px; 
+}
+.info .text{
+    width:150px;
+}
+
+  .quote_sec{
+    /* border:dotted purple; */
+    display:flex;
+    flex:1 1 1%;
+
+    /* max-height: 200px; */
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+
+    
+  }
+.quote_sec p {
+    display: flex;
+    margin:10px;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    max-width: 800px;
+    
+}
+
+.quote_sec .attribution {
+    align-self: end;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.callToAction_sec{
+    background-color: #3882F6;
+    display:flex;
+    flex-direction: column;
+    /* flex:1 1 auto; */
+    /* max-height:100px; */
+    padding:20px;
+    margin: 30px;
+    /* width:400px; */
+    color:    #F9FAF8;
+    align-self: center;
+    /* flex: auto; */
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.callToAction_sec .actionP {
+    /* display: flex; */
+    flex:1 1 40%;
+    flex-direction:column;
+    /* max-width: 10px; */
+    /* max-height: 30px; */
+
+    /* flex-basis: 0; */
+    /* flex-wrap:wrap; */
+    flex-wrap: wrap;
+    } 
+
+
+
+
+
+.callToAction_sec .sign-up{
+    background-color: #3882F6;
+    color:white;
+    padding:5px;
+    border-radius: 8px;
+    min-width: 80px;
+    max-width: 80px;
+    border: white solid 2px;
+    /* flex-grow: 0; */
+}
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex:1; */
+    /* border:dotted purple; */
+    background-color: #1F2937;
+    color:#E5E7EB;
+    align-self: ;
+
+}
+.sign-up{
+    background-color: #3882F6;
+    color:white;
+    padding:5px;
+    border-radius: 8px;
+    min-width: 80px;
+    max-height: 30px;
+    margin: 20px 10px 10px 0px;
+    border: white solid px;
+
+}
+
+
+  
